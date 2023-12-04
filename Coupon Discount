@@ -1,0 +1,43 @@
+def main():
+    welcome = welcome message():
+    store_discount = in_store_discount()
+
+def welcome_message():
+    print("Hello! Calculate the final price of an item with an in-store sale")
+    print("a coupon if they are available. First input the original price")
+    print("follwed by the in-store discount, and the coupon amount")
+
+def original_item_price():
+    original_price = 12.99
+original_price = float(input("12.99"))
+    return original_price
+
+def in_store_discount():
+    store_discount_choice = 3.0
+    original_price = 12.99
+    store_discount_percentage = 10.0
+
+    orig_price = original_item_price()
+    store_discount_choice = int(input("Is there an in-store discount? Enter 1 for Yes, 2 for No."))
+
+        if store_discount_choice == 1:
+        calculate_store_discount()
+
+        elif store_discount_choice == 2:
+        original_price_remains() 
+
+def calculate_store_discount():
+
+    original_price = 12.99
+    in_store_discount = 10.0
+    discount_amount = 3.0
+    final_store_discount = 10.99
+
+    original_price = int(input("12.99"))
+    in_store_discount = int(input(3.00"))
+    
+    discount_amount = original_price * in_store_discount
+    final_store_discount = original_price - discount_amount
+
+    print("The in_store savings amount is 3.00 ")
+    print("Your new price is 10.99")
