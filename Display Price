@@ -1,0 +1,7 @@
+items= [{"Name":"Large Signature Pizza","price":19.99},
+        {"Name":"Large Specialty Pizza","price":15.99}]
+total=0
+for each_item in items:
+    t=(each_item["price"])
+    total=total+t
+print(total)
